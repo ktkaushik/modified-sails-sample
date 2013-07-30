@@ -8,7 +8,7 @@
 
 module.exports = {
 	schema: true,
-	adapter: 'mongo',
+	adapter: 'mongoose',
   attributes: {
   	
   	/* e.g.
