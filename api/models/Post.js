@@ -7,13 +7,12 @@
  */
 
 module.exports = {
-
+	schema: true,
+	adapter: 'mongoose',
   attributes: {
-  	
-  	/* e.g.
-  	nickname: 'string'
-  	*/
-    
+
+	title: 'string'
+
   }
 
 };
