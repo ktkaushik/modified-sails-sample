@@ -8,12 +8,13 @@
 
 module.exports = {
 
+	schema: true,
+	adapter: 'mongo',
+
   attributes: {
-  	
-  	/* e.g.
-  	nickname: 'string'
-  	*/
-    
+
+	nickname: 'string'
+
   }
 
 };
